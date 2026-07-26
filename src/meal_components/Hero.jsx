@@ -4,7 +4,7 @@ const HeroContent = () => {
         <div className="col-lg-7">
             <span className="eyebrow">14 categories, one kitchen</span>
             <h1>
-                What's <em>cooking</em> today?
+                Hey!!! we are <em>COOKING</em> something new for you today!
             </h1>
             <p className="lead">
                 Every dish starts as a category on a card. Browse beef, pasta, vegan,

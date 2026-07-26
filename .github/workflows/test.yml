@@ -1,0 +1,31 @@
+# install github actions/checkout@v3 and yaml extension for vscode to view this file properly
+#workflows, events, jobs, steps, actions, runs-on, uses, with, name, run, env, if, needs
+
+name : testing testing workflow
+#events to fire the workflow
+
+on : 
+    push:
+        branches: main
+
+#job you want to automate
+jobs:
+
+# job name
+    say-hello:
+
+# on which os/platform you want to run the job
+
+        runs-on: ubuntu-latest
+
+# steps to run in the job
+        steps:
+
+# step 1: a name for the step and whats it's all about
+            - name: welcome user
+              run: echo "Welcome to CI/CD"
+
+# run a command in the shell
+            - name: goodbye user
+              run: echo "Goodbye Users"
+        

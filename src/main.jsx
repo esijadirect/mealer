@@ -7,7 +7,7 @@ import Counter from './Counter.jsx'
 import Invento from './Invento.jsx'
 import  { ProductProvider } from './context/ProductContext.jsx'
 import Meal from './Meal.jsx'
-import Store from './Store.jsx'
+// import Store from './Store.jsx'
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 

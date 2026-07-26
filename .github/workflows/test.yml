@@ -6,7 +6,7 @@ name : testing testing workflow
 
 on : 
     push:
-        branches: main
+        branches: main_dont_run
 
 #job you want to automate
 jobs:
